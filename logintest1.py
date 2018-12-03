@@ -49,8 +49,8 @@ home_page = (By.XPATH,"//aside[@id='left-panel']/nav/ul/li[1]/a/span")
 
 
 
-driver.find_element(*username).send_keys("ava")
-driver.find_element(*passwd).send_keys("123456")
+driver.find_element(*username).send_keys("888")
+driver.find_element(*passwd).send_keys("8888")
 driver.find_element(*loginbtn).click()
 sleep(3)
 print("login success")
