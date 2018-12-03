@@ -16,7 +16,7 @@ from selenium.webdriver.common.by import By
 
 #login
 driver = webdriver.Firefox()
-driver.get("http://192.168.13.243/admin")
+driver.get("http://192.168.13.234/admin")
 driver.maximize_window()
 #wait
 sleep(3)
